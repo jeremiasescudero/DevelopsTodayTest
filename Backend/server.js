@@ -1,10 +1,13 @@
 const express = require('express');
 const axios = require('axios');
+const cors = require('cors');
+
+
 
 const app = express();
 const port = 3002
 
-
+app.use(cors());
 app.get('/countries', async (req, res) => {
     try {
         const response = await axios.get('https://date.nager.at/api/v3/AvailableCountries')  
