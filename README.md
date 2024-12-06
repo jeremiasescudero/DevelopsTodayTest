@@ -2,8 +2,8 @@
 # Country Info Application
 
 This project is a full-stack web application that provides information about countries, built with:
-- **Backend**: Node.js (Express or Nest.js).
-- **Frontend**: React (or Next.js).
+- **Backend**: Node.js (Express).
+- **Frontend**: React.
 
 ## Features
 - **Country List Page**: Displays all available countries.
