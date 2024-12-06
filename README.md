@@ -57,7 +57,7 @@ This project is a full-stack web application that provides information about cou
 - Open `http://localhost:3000` for the frontend.
 - Test backend endpoints:
   - `GET http://localhost:3002/countries`
-  - `GET http://localhost:3002/country/:code`
+  - `GET http://localhost:3002/countries/:countryCode`
 
 ---
 
